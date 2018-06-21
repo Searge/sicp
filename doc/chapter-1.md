@@ -50,12 +50,15 @@
 
 ## Вправа 1.2
 Переведіть наступний вираз у префіксну форму:
-$${5 + 4 (2 - (3 - (6 + {4 \over 5}))) \over 3(6 - 2)(2 - 7)}$$
+
+![${5 + 4 (2 - (3 - (6 + {4 \over 5}))) \over 3(6 - 2)(2 - 7)}$](https://latex.codecogs.com/gif.latex?{5&space;&plus;&space;4&space;(2&space;-&space;(3&space;-&space;(6&space;&plus;&space;{4&space;\over&space;5})))&space;\over&space;3(6&space;-&space;2)(2&space;-&space;7)})
+
 
 ```racket
 (/ (+ 5 4 (- 2 (- 3 (+ 6 (/ 4 5))))) (* 3 (- 6 2) (- 2 7)))
 ```
-$$-{37\over 150}$$
+
+![$-{37\over 150}$](https://latex.codecogs.com/gif.latex?-{37\over&space;150})
 
 ## Вправа 1.3
 Визначте процедуру, яка приймає в якості аргументів три числа і повертає суму квадратів двох найбільших із них.
