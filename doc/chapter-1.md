@@ -4,15 +4,15 @@
 
 ```racket
 10
-;; 10
+⇒  10
 (+ 5 3 4)
-;; 12
+⇒  12
 (- 9 1)
-;; 8
+⇒  8
 (/ 6 2)
-;; 3
+⇒  3
 (+ (* 2 4) (- 4 6))
-;; 6
+⇒  6
 (define a 3)
 (define b (+ a 1))
 (+ a b (* a b))
@@ -22,13 +22,13 @@
 (= a b)
 ;; #f — тому що не рівне
 (if (and (> b a) (< b (* a b))) b a)
-;; => 4
+⇒ 4
 ;; бо (4 > 3) і (4 < (12))
 
 (cond ((= a 4) 6)
       ((= b 4) (+ 6 7 a))
       (else 25))
-;; 16
+⇒ 16
 ;; альт. запис ↓
 (cond
   (= a 4) 6
@@ -39,26 +39,26 @@
   (if (> b a)
     b
     a))
-;; 6, бо 4 + 2
+⇒ 6; бо 4 + 2
 (* (cond ((> a b) a)
          ((< a b) b)
          (else -1))
     (+ a 1))
-;; 16, бо 4 * 4
+⇒ 16; бо 4 * 4
 
 ```
 
 ## Вправа 1.2
 Переведіть наступний вираз у префіксну форму:
 
-![${5 + 4 (2 - (3 - (6 + {4 \over 5}))) \over 3(6 - 2)(2 - 7)}$](https://latex.codecogs.com/gif.latex?{5&space;&plus;&space;4&space;(2&space;-&space;(3&space;-&space;(6&space;&plus;&space;{4&space;\over&space;5})))&space;\over&space;3(6&space;-&space;2)(2&space;-&space;7)})
+![$`{5 + 4 (2 - (3 - (6 + {4 \over 5}))) \over 3(6 - 2)(2 - 7)}`$](https://latex.codecogs.com/gif.latex?{5&space;&plus;&space;4&space;(2&space;-&space;(3&space;-&space;(6&space;&plus;&space;{4&space;\over&space;5})))&space;\over&space;3(6&space;-&space;2)(2&space;-&space;7)})
 
 
 ```racket
 (/ (+ 5 4 (- 2 (- 3 (+ 6 (/ 4 5))))) (* 3 (- 6 2) (- 2 7)))
 ```
 
-![$-{37\over 150}$](https://latex.codecogs.com/gif.latex?-{37\over&space;150})
+![$`-{37\over 150}`$](https://latex.codecogs.com/gif.latex?-{37\over&space;150})
 
 ## Вправа 1.3
 Визначте процедуру, яка приймає в якості аргументів три числа і повертає суму квадратів двох найбільших із них.
