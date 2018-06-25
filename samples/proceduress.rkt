@@ -88,13 +88,13 @@ circumference
 ;; кв.к ікс це таке число ігрек, яке: y>=0, y^2 = x
 
 (define (sqrt-iter guess x)
-  (if (good-enought? guess x) guess
+  (if (good-enough? guess x) guess
       (sqrt-iter (improve guess x) x)))
 (define (improve guess x)
-  (avarage guess (/ x guess)))
-(define (avarage a b)
+  (average guess (/ x guess)))
+(define (average a b)
   (/ (+ a b) 2))
-(define (good-enought? guess x)
+(define (good-enough? guess x)
   (< (abs (- (square guess) x)) 0.01))
 (define (sqrt x)
   (sqrt-iter 1.0 x))
