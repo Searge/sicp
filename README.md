@@ -1,8 +1,9 @@
 # sicp
 🚀 SICP https://mitpress.mit.edu/sicp/
 
-![SICP Anime Opening](img/dont_miss.png)(https://www.youtube.com/watch?v=a0YrCABCOEY)
-
+<a href="https://www.youtube.com/watch?v=a0YrCABCOEY">
+![SICP Anime Opening](img/dont_miss.png)
+</a>
 ## Typographical Conventions
 In examples and procedure descriptions and all other places where the evaluation of Scheme expression is shown, we use some notation for denoting the output and evaluation results of expressions.
 The symbol `⇒` is used to tell which value is returned by an evaluation: 
