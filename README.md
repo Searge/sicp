@@ -3,7 +3,7 @@
     <img src="img/dont_miss.png" alt="SICP Anime Opening">
 </a>
 
-[![DrRacket 🚀](https://img.shields.io/badge/Made with-Lisp-ff69b4.svg)](https://shields.io/) ![Github Commits](https://img.shields.io/github/commits-since/SubtitleEdit/subtitleedit/3.4.7.svg)
+![DrRacket 🚀](https://img.shields.io/badge/Made_with-Lisp-ff69b4.svg?style=plastic) ![GitHub last commit](https://img.shields.io/github/last-commit/google/skia.svg?style=plastic) ![license](https://img.shields.io/github/license/mashape/apistatus.svg?style=plastic) ![GitHub repo size in bytes](https://img.shields.io/github/repo-size/badges/shields.svg?style=plastic) [![Open Source Love](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)](https://github.com/ellerbrock/open-source-badges/)
 
 * [Official book page](https://mitpress.mit.edu/sicp/)
 * [MIT Lectures](http://groups.csail.mit.edu/mac/classes/6.001/abelson-sussman-lectures/)
