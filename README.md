@@ -3,9 +3,7 @@
     <img src="img/dont_miss.png" alt="SICP Anime Opening">
 </a>
 
-[![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://forthebadge.com) [![forthebadge](https://forthebadge.com/images/badges/powered-by-electricity.svg)](https://forthebadge.com) 
-[![forthebadge](https://forthebadge.com/images/badges/as-seen-on-tv.svg)](https://forthebadge.com) [![forthebadge](https://forthebadge.com/images/badges/check-it-out.svg)](https://forthebadge.com) [![forthebadge](https://forthebadge.com/images/badges/fo-sho.svg)](https://forthebadge.com)
-[![forthebadge](https://forthebadge.com/images/badges/does-not-contain-treenuts.svg)](https://forthebadge.com)
+[![DrRacket 🚀](https://img.shields.io/badge/Made with-Lisp-ff69b4.svg)](https://shields.io/) ![Github Commits](https://img.shields.io/github/commits-since/SubtitleEdit/subtitleedit/3.4.7.svg)
 
 * [Official book page](https://mitpress.mit.edu/sicp/)
 * [MIT Lectures](http://groups.csail.mit.edu/mac/classes/6.001/abelson-sussman-lectures/)
@@ -30,3 +28,6 @@ symbol `⊣`.
 ```
 
 As you can see, this code prints `1` (denoted by `⊣`), and returns hooray (denoted by `⇒`).
+
+
+[![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://forthebadge.com) [![forthebadge](https://forthebadge.com/images/badges/powered-by-electricity.svg)](https://forthebadge.com) 
