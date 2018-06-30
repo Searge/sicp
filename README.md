@@ -1,9 +1,15 @@
-# sicp
-🚀 SICP https://mitpress.mit.edu/sicp/
-
+# Structure and Interpretation of Computer Programs 🚀 
 <a href="https://www.youtube.com/watch?v=a0YrCABCOEY">
     <img src="img/dont_miss.png" alt="SICP Anime Opening">
 </a>
+
+[![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://forthebadge.com) [![forthebadge](https://forthebadge.com/images/badges/powered-by-electricity.svg)](https://forthebadge.com) 
+[![forthebadge](https://forthebadge.com/images/badges/as-seen-on-tv.svg)](https://forthebadge.com) [![forthebadge](https://forthebadge.com/images/badges/check-it-out.svg)](https://forthebadge.com) [![forthebadge](https://forthebadge.com/images/badges/fo-sho.svg)](https://forthebadge.com)
+[![forthebadge](https://forthebadge.com/images/badges/does-not-contain-treenuts.svg)](https://forthebadge.com)
+
+* [Official book page](https://mitpress.mit.edu/sicp/)
+* [MIT Lectures](http://groups.csail.mit.edu/mac/classes/6.001/abelson-sussman-lectures/)
+* [Rus. translation](http://newstar.rinet.ru/~goga/sicp/)
 
 ## Typographical Conventions
 In examples and procedure descriptions and all other places where the evaluation of Scheme expression is shown, we use some notation for denoting the output and evaluation results of expressions.
