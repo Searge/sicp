@@ -10,6 +10,8 @@
 * [Official book page](https://mitpress.mit.edu/sicp/)
 * [MIT Lectures](http://groups.csail.mit.edu/mac/classes/6.001/abelson-sussman-lectures/)
 * [Rus. translation](http://newstar.rinet.ru/~goga/sicp/)
+* [Курс  Хекслет «SICP по-русски»](https://www.youtube.com/playlist?list=PLo6puixMwuSO8eB2uBH5lZy5kjNtdhTfT)
+* [MIT Лекция 1, рус. суб.](https://www.youtube.com/watch?v=vBUxWCAtgS4&t=3534s)
 
 ## Typographical Conventions
 In examples and procedure descriptions and all other places where the evaluation of Scheme expression is shown, we use some notation for denoting the output and evaluation results of expressions.
@@ -25,8 +27,8 @@ symbol `⊣`.
 
 ```scheme
 (begin (display 1) (newline) ’hooray)
-⊣ 1
-⇒ hooray
+-| 1
+=> hooray
 ```
 
 As you can see, this code prints `1` (denoted by `⊣`), and returns hooray (denoted by `⇒`).
