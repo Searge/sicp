@@ -1,5 +1,9 @@
+#lang racket
 ;; n! = n * (n - 1) * (n - 2) .. 1
 ;; Рекурсивне рішення
 ;; n! = n * (n - 1)!
 
-(* (+ 2 (* 4 6)) (+ 3 5 7))
+ (define (factorial n)
+    (if (= n 1)
+        1
+        (* n (factorial (- n 1)))))
